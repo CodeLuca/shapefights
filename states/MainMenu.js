@@ -7,6 +7,7 @@ BasicGame.MainMenu.prototype = {
     },
 
     create: function () {
+        this.add.sprite(0,0,'');
         this.stage.backgroundColor = "#dce4e6";
         var text = this.add.text(134, 80, "Room Slayer", {font: "70px Impact" , fill:"#bd0018", stroke: "#fff", strokeThickness: 10});
 	    var text = this.add.text(230, 166, "By CodeLuca", {font: "30px Impact" , fill:"#bd0018", stroke: "#fff", strokeThickness: 8});
